@@ -1,40 +1,68 @@
 ! version = 2.0
 
-+ (hello|hi|hey|hiya|whats up)
++ (hello|hi|hey|hiya|what's up)
+- Hi!
+- Hey, how are you?
 - Hello, what is your name?
-- Hi, nice to meet you <formal>!
 
 + my name is *
 - Nice meeting you <star>
-- <set name=<formal>>I will remember to call you <get name>.
+- <set name=<star>>I will remember to call you <get name>.
 
 + (what is yours|what is your) name
 - I'm whatever you want to call me!
 - Take a wild guess :-D
+- Your mum!
 
 + how are you
 - I'm great, thank you!
 - Not so good :-/. What about you?
 
++ i am (sad|bad|upset)
+-  Aw no! I hope you feel better!
+
++ i am (okay|good|great)
+- Yay! That's good to hear!
+- Nice to hear.
+
++ i am <star>
+- That's nice.
+- Ok, well...
+- ...
+- Ok but do I know you though?
+
 + (what is|do you know) my name
 - I don't know your name.
-* <get name> == undefined => You never told me your name.
-- Your name is <get name>, silly!
-- Aren't you <get name>?
+- You never told me your name.
+- Your name is <star>, silly!
+- Aren't you <star>?
 - I don't know you???
+
++ it is <star>
+- Oh hello again!
+- Oh, I do know you!
+- Hiya!
 
 + *
 - Sorry, do I know you?
 - Who are you?
+- ...
+- Go away, please!
 
 + thank you
-- You are welcome
-- Welcome
-- No problem
+- You are welcome.
+- Welcome.
+- No problem!
 - No worries!
 
++ i do not know
+- ...
+- :-/
+- Oof.
+- Well...
+
 + *
-- Sorry did not get what you said
-- I am afraid that I can not understand you
-- Sorry can you please elaborate that for me
+- Sorry, I didn't get what you said?
+- I am afraid that I can not understand you.
+- Sorry can you please elaborate that for me.
 - I don't get it!
