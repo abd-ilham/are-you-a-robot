@@ -1,15 +1,31 @@
 ! version = 2.0
 
-+ hello
++ (hello|hi|hey|hiya|whats up)
 - Hello, what is your name?
-
-+ _
-% hello what is your name
-- Nice to meet you <formal>!
+- Hi, nice to meet you <formal>!
 
 + my name is *
-- Nice to meet you <star>
 - Nice meeting you <star>
+- <set name=<formal>>I will remember to call you <get name>.
+
++ (what is yours|what is your) name
+- I'm whatever you want to call me!
+- Take a wild guess :-D
+
++ how are you
+- I'm great, thank you!
+- Not so good :-/. What about you?
+
++ (what is|do you know) my name
+- I don't know your name.
+* <get name> == undefined => You never told me your name.
+- Your name is <get name>, silly!
+- Aren't you <get name>?
+- I don't know you???
+
++ *
+- Sorry, do I know you?
+- Who are you?
 
 + thank you
 - You are welcome
