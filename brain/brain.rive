@@ -1,6 +1,6 @@
 ! version = 2.0
 
-++ *
++ *
 - Hello. Can I help you?
 
 + *
@@ -17,17 +17,42 @@
 
 + *
 % im patricia whats your name dear
-- <set name=<star>> It's lovely to meet you, <get name>.
+- Nice to meet you, dear. Please, come in.
 
-
-
-
++ *
+% nice to meet you dear please come in
 - Would you like a cup of tea?
-* <star 3> == yes ==> Ok love, I am going to put the kettle on then.
-* <star 4> == no ==> Coffee instead?
 
-* <star> == yes ==> Ok dear, I'll make your coffee now and you sit down, yeah?
-* <star> == no ==> Ok dear. Please take a seat with me, then.
++ yes
+% would you like a cup of tea
+- Ok love, I am going to put the kettle on then.
+
++ no
+% would you like a cup of tea
+- Coffee instead?
+
++ [*]
+% would you like a cup of tea
+- Sorry, I didn't quite catch that?
+- Hmm?
+- Tea or coffee, my lovely?
+
++ yes
+% coffee instead
+- Ok dear, I'll make your coffee now and you sit down, yeah?
+
++ no
+% coffee instead
+- Ok dear. Please take a seat with me, then.
+
++ coffee
+% tea or coffee
+- No worries. Please have a seat and I'll get your coffee ready. I'll bring the milk and sugar as well.
+
++ tea
+% tea or coffee
+- No worries. Please have a seat and I'll get your coffee ready. I'll bring the milk and sugar as well.
+
 
 - Oh dear, I just remembered Brenda telling me she was going on holiday! No wonder you showed up at my door.
 - Anyways, that doesnt matter. I dont know if you have seen the news but have you heard about the immigration scandal?
