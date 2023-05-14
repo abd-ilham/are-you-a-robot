@@ -1,65 +1,43 @@
 ! version = 2.0
 
-+ (hello|hi|hey|hiya|what's up)
-- Hi!
-- Hey, how are you?
-- Hello, what is your name?
-
-+ my name is *
-- Nice meeting you <star>
-- <set name=<star>>I will remember to call you <get name>.
-
-+ (what is yours|what is your) name
-- I'm whatever you want to call me!
-- Take a wild guess :-D
-- Your mum!
-
-+ how are you
-- I'm great, thank you!
-- Not so good :-/. What about you?
-
-+ i am (sad|bad|upset)
--  Aw no! I hope you feel better!
-
-+ i am (okay|good|great)
-- Yay! That's good to hear!
-- Nice to hear.
-
-+ i am <star>
-- That's nice.
-- Ok, well...
-- ...
-- Ok but do I know you though?
-
-+ (what is|do you know) my name
-- I don't know your name.
-- You never told me your name.
-- Your name is <star>, silly!
-- Aren't you <star>?
-- I don't know you???
-
-+ it is <star>
-- Oh hello again!
-- Oh, I do know you!
-- Hiya!
+++ *
+- Hello. Can I help you?
 
 + *
-- Sorry, do I know you?
-- Who are you?
-- ...
-- Go away, please!
-- I am afraid that I can not understand you.
-- Sorry can you please elaborate that for me.
-- I don't get it!
+% hello can i help you
+- Did Brenda send you? Are you my carer for today?
 
-+ thank you
-- You are welcome.
-- Welcome.
-- No problem!
-- No worries!
++ *
+% did brenda send you are you my carer for today
+- Oh then, come in please. Make yourself  at home. 
 
-+ i do not know
-- ...
-- :-/
-- Oof.
-- Well...
++ *
+% oh then come in please make yourself at home
+- I'm Patricia. What's your name, dear?
+
++ *
+% im patricia whats your name dear
+- <set name=<star>> It's lovely to meet you, <get name>.
+
+
+
+
+- Would you like a cup of tea?
+* <star 3> == yes ==> Ok love, I am going to put the kettle on then.
+* <star 4> == no ==> Coffee instead?
+
+* <star> == yes ==> Ok dear, I'll make your coffee now and you sit down, yeah?
+* <star> == no ==> Ok dear. Please take a seat with me, then.
+
+- Oh dear, I just remembered Brenda telling me she was going on holiday! No wonder you showed up at my door.
+- Anyways, that doesnt matter. I dont know if you have seen the news but have you heard about the immigration scandal?
+* <star> == no ==> Oh its terrible. This blasted government is shipping all of us Caribbean folks back to the Islands, even though we came here as children! Children we were! But they dont care!
+* <star> == yes ==> So you know about the Windrush scandal then, yes? It is terrible! Oh love, its all going wrong. So many of us Caribbeans are being deported back to the islands but how can we go back to a place weve never called home? Ive lived here since I was only five years old. The UK is the only country Ive ever called home.
+- I cant stop worrying about this. I am so stressed, my blood pressure keeps going up. I dont want to be deported back to Jamaica. The last time I went there was for my cousins funeral. And that was 10 years ago.
+- I dont want to be alone if I get deported. Whos going to look after me? What about my children and my grandchildren? Will they be allowed to see me? Will I not get the rest of my pensions? My medications and my care? Oh, this is awful, really awful.
+- You think after coming to this country and working for the NHS for 50 years, I would be treated much better than this. But Im being made to feel like an alien, like Im sort of an illegal immigrant.
+- My parents, like many other Caribbean families, were told to come here by this country and we were promised jobs and a good life. So we boarded the Windrush and off we went.
+- Anyways, its not that we didnt want to come here. I was five years, what did I know back then? Despite the hardships I faced since coming to this country, I love living here.
+- In fact, I loved my job! I loved being a nurse. I loved helping patients and making sure they were doing okay in the hospitals.
+- I felt like I was making a change to the world. I felt useful and wanted for my services, even though I had to often deal with intense racism from the public and from the hospital staff, especially from white nurses.
+- That was back then. Now, life is much quieter and less busy. I miss working with my friends, but I dont miss the hours! Besides, Im much too old for that. 
