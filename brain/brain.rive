@@ -253,3 +253,39 @@
 - No worries. Enjoy your day and see you again soon!
 
 //Toothbrush returns to pot/end of conversation
+
+// K's toothbrush dialogue
+
+// K's toothbrush section
+
++ *
+- Sorry, do I know you?
+
++ no
+% sorry do i know you
+- Okay...I'm gonna go...
+
+//toothbrush returns to pot
+
++ *
+% sorry do i know you
+- Wait, are you new? I think I've seen you in my Maths class before.
+
++ *
+% wait are you new i think ive seen you in my maths class before|i think youre lying cos ive literally seen you in class yesterday
+- Anyways, what's your name?
+
++ no
+% wait are you new i think ive seen you in my maths class before
+- Oh, okay. I swear on my life I've seen you in class before, don't lie.
+
++ *
+% oh okay i swear on my life ive seen you in class before dont lie
+- I think you're lying cos I've literally seen you in class yesterday.
+
++ *
+% anyways whats your name
+- Cool name. My name's K. Don't ask what it stands for, it's just K alright?
+
+
+
