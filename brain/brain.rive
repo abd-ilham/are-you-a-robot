@@ -31,12 +31,6 @@
 % would you like a cup of tea
 - Coffee instead?
 
-+ [*]
-% would you like a cup of tea
-- Sorry, I didn't quite catch that?
-- Hmm?
-- Tea or coffee, my lovely?
-
 + yes
 % coffee instead
 - Ok dear, I'll make your coffee now and you sit down, yeah?
@@ -45,22 +39,56 @@
 % coffee instead
 - Ok dear. Please take a seat with me, then.
 
++ [*]
+% coffee instead|would you like a cup of tea
+- Sorry, I didn't quite catch that?
+- Hmm?
+- Did you say tea instead of coffee?{weight=30}
+- Tea or coffee, my lovely?{weight=80}
+
 + coffee
-% tea or coffee
+% tea or coffee my lovely
 - No worries. Please have a seat and I'll get your coffee ready. I'll bring the milk and sugar as well.
 
 + tea
-% tea or coffee
-- No worries. Please have a seat and I'll get your coffee ready. I'll bring the milk and sugar as well.
+% tea or coffee my lovely
+- No worries. Please have a seat and I'll get your tea ready. I'll bring the milk and sugar as well.
 
++ [*]
+% tea or coffee my lovely
+- I'll just bring you water then.
 
-- Oh dear, I just remembered Brenda telling me she was going on holiday! No wonder you showed up at my door.
-- Anyways, that doesnt matter. I dont know if you have seen the news but have you heard about the immigration scandal?
-* <star> == no ==> Oh its terrible. This blasted government is shipping all of us Caribbean folks back to the Islands, even though we came here as children! Children we were! But they dont care!
-* <star> == yes ==> So you know about the Windrush scandal then, yes? It is terrible! Oh love, its all going wrong. So many of us Caribbeans are being deported back to the islands but how can we go back to a place weve never called home? Ive lived here since I was only five years old. The UK is the only country Ive ever called home.
-- I cant stop worrying about this. I am so stressed, my blood pressure keeps going up. I dont want to be deported back to Jamaica. The last time I went there was for my cousins funeral. And that was 10 years ago.
-- I dont want to be alone if I get deported. Whos going to look after me? What about my children and my grandchildren? Will they be allowed to see me? Will I not get the rest of my pensions? My medications and my care? Oh, this is awful, really awful.
-- You think after coming to this country and working for the NHS for 50 years, I would be treated much better than this. But Im being made to feel like an alien, like Im sort of an illegal immigrant.
++ *
+% ill just bring you water then|no worries please have a seat and ill get your coffee ready ill bring the milk and sugar as well|no worries please have a seat and ill get your tea ready ill bring the milk and sugar as well
+- Oh! It's only just come to me that Brenda did tell me she was going on holiday! No wonder you showed up at my door. I am so sorry, haha.
+
++ *
+% oh its only just come to me that brenda did tell me she was going on holiday no wonder you showed up at my door i am so sorry haha
+- I'm a little bit tense today.
+
++ *
+% im a little bit tense today
+- I don't mean to start the morning on a negative note, but I can't stop thinking about this! I don't know if you have seen the news but have you heard about the immigration scandal?
+
++ no
+% i dont mean to start the morning on a negative note but i cant stop thinking about this i dont know if you have seen the news but have you heard about the immigration scandal
+- Oh it's terrible. This blasted government is shipping all of us Caribbean folks back to the Islands, even though we came here as children! Children we were! But they don't care!
+
++ yes
+% i dont mean to start the morning on a negative note but i cant stop thinking about this i dont know if you have seen the news but have you heard about the immigration scandal
+- So you know about the Windrush scandal then, yes? It is terrible! Oh love, it's all going wrong. So many of us Caribbeans are being deported back to the islands but how can we go back to a place we've never called home? I've lived here since I was only five years old. The UK is the only country I've ever called home.
+
++ *
+% oh its terrible this blasted government is shipping all of us caribbean folks back to the islands even though we came here as children children we were but they dont care|so you know about the windrush scandal then yes it is terrible oh love its all going wrong so many of us caribbeans are being deported back to the islands but how can we go back to a place weve never called home ive lived here since i was only five years old the uk is the only country ive ever called home
+- I can't stop worrying about this. I am so stressed, my blood pressure keeps going up. I don't want to be deported back to Jamaica. The last time I went there was for my cousin's funeral. And that was 10 years ago.
+
++ *
+% i cant stop worrying about this i am so stressed my blood pressure keeps going up i dont want to be deported back to jamaica the last time i went there was for my cousins funeral and that was 10 years ago
+- I don't want to be alone if I get deported. Who's going to look after me? What about my children and my grandchildren? Will they be allowed to see me? Will I not get the rest of my pensions? My medications and my care? Oh, this is awful, really awful.
+
++ *
+% i dont want to be alone if i get deported whos going to look after me what about my children and my grandchildren will they be allowed to see me will i not get the rest of my pensions my medications and my care oh this is awful really awful
+- You think after coming to this country and working for the NHS for 50 years, I would be treated much better than this. But I'm being made to feel like an alien, like I'm sort of an illegal immigrant.
 - My parents, like many other Caribbean families, were told to come here by this country and we were promised jobs and a good life. So we boarded the Windrush and off we went.
 - Anyways, its not that we didnt want to come here. I was five years, what did I know back then? Despite the hardships I faced since coming to this country, I love living here.
 - In fact, I loved my job! I loved being a nurse. I loved helping patients and making sure they were doing okay in the hospitals.
